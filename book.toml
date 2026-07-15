@@ -1,0 +1,63 @@
+[book]
+title = "primer"
+authors = ["Aitzaz Imtiaz (Akito Rin)"]
+description = "A collection of notes on C++ based on ."
+src = "src"
+language = "en"
+text-direction = "ltr"
+
+[rust]
+edition = "2021"
+
+[build]
+build-dir = "book"
+create-missing = true
+use-default-preprocessors = true
+extra-watch-dirs = []
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
+mathjax-support = true
+copy-fonts = true
+additional-css = ["theme/custom.css"]
+git-repository-url = "https://github.com/AitzazImtiaz/primer"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/AitzazImtiaz/primer/edit/main/{path}"
+site-url = "/"
+cname = "primer.aitzazimtiaz.xyz"
+input-404 = "404.md"
+hash-files = false
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.fold]
+enable = false
+level = 0
+
+[output.html.playground]
+copyable = true
+copy-js = true
+line-numbers = false
+
+[output.html.code.hidelines]
+cpp = "~"
+
+[output.html.search]
+enable = true
+limit-results = 20
+teaser-word-count = 30
+use-boolean-and = false
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
+
+[output.html.redirect]
+[preprocessor.index]
+[preprocessor.links]

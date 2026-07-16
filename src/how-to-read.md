@@ -4,10 +4,13 @@ This site follows some conventions and designs. An unknown person once said:
 
 Now that two unknowns have indulged this, the following manual does have errors indeed. 
 
-- Please look at top right for <i class="fa fa-edit"></i> icon to suggest any edits (you will be required a GitHub account for this). 
-- Please look at top right for <i class="fa fa-github"></i> icon to visit the GitHub source for this site.
-- If you wish to compile this entire site as a pdf booklet, please look at the top for <i class="fa fa-print"></i> icon. 
-
+- Please look at top right for the <i class="fa fa-edit"></i> icon to suggest any edits (you will need a GitHub account for this). 
+- Please look at top right for the <i class="fa fa-github"></i> icon to visit the GitHub source for this site.
+- If you wish to compile this entire site as a pdf booklet, please look at the top for <i class="fa fa-print"></i> icon.
+- Please look at top left for the <i class="fa fa-search"></i> icon. This can be used to search any term on this site.
+- Please use the <i class="fa fa-paint-brush"></i> icon at top left to change themes, by default 'light' theme is used, unless when the device is on dark mode, which will use 'navy' theme.
+  - Please note that the theme will remain in 'light' mode when compiling the pdf booklet.
+- Please use the <i class="fa fa-bars"></i> icon to toggle the side bar,
 <hr>
 
 <ul>

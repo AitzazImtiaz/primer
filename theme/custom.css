@@ -183,6 +183,23 @@
 /* --- Sidebar --------------------------------------------------------------- */
 .chapter li.chapter-item { line-height: 1.55; }
 
+/* --- Hidden ("boring") code lines in PDF/print ----------------------------
+ * mdBook collapses ~-prefixed lines on screen but EXPANDS them in the print
+ * page (so the PDF shows full, compilable code). Those lines keep the `boring`
+ * class in the DOM, so here we mark them for print: dim them and prefix a
+ * visible "~" so the reader understands this part is normally hidden.
+ * -------------------------------------------------------------------------- */
+@media print {
+    pre code .boring {
+        opacity: 0.5;
+    }
+    pre code .boring::before {
+        content: "~ ";
+        font-weight: 700;
+        opacity: 0.7;
+    }
+}
+
 /* --- Accessibility: respect reduced-motion --------------------------------- */
 @media (prefers-reduced-motion: reduce) {
     * { transition: none !important; animation: none !important; }

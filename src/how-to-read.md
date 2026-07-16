@@ -2,7 +2,14 @@ This site follows some conventions and designs. An unknown person once said:
 
 > "The only manual with no mistakes is the one that was never written." 
 
-Now that two unknowns have indulged this, this manual does have errors. Please look at the top right for <i class="fa fa-edit"></i> icon.
+Now that two unknowns have indulged this, the following manual does have errors indeed. 
+
+- Please look at top right for <i class="fa fa-edit"></i> icon to suggest any edits (you will be required a GitHub account for this). 
+- Please look at top right for <i class="fa fa-github"></i> icon to visit the GitHub source for this site.
+- If you wish to compile this entire site as a pdf booklet, please look at the top for <i class="fa fa-print"></i> icon. 
+
+<hr>
+
 <ul>
     <li>
     This is a playbook consisting of code:

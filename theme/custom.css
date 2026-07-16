@@ -184,19 +184,23 @@
 .chapter li.chapter-item { line-height: 1.55; }
 
 /* --- Hidden ("boring") code lines in PDF/print ----------------------------
- * mdBook collapses ~-prefixed lines on screen but EXPANDS them in the print
- * page (so the PDF shows full, compilable code). Those lines keep the `boring`
- * class in the DOM, so here we mark them for print: dim them and prefix a
- * visible "~" so the reader understands this part is normally hidden.
+ * mdBook's book.js adds `.hide-boring` on load, which sets the ~-lines to
+ * `display:none` — and that state persists into the print page, so hidden
+ * code never reaches the PDF. Here we override that for print only: force the
+ * lines visible, dim them, and prefix a "~" so the reader can see this part is
+ * the normally-hidden scaffolding. (On screen, JS + the eye toggle are
+ * untouched — this block is print-scoped.)
  * -------------------------------------------------------------------------- */
 @media print {
+    .hide-boring .boring,
     pre code .boring {
-        opacity: 0.5;
+        display: inline !important;   /* un-hide the collapsed lines for the PDF */
+        opacity: 0.55;                /* keep them dimmed as the "hidden" cue */
     }
     pre code .boring::before {
-        content: "~ ";
+        content: "~ ";                /* visible marker at the start of the line */
         font-weight: 700;
-        opacity: 0.7;
+        opacity: 0.75;
     }
 }
 

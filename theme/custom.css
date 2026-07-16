@@ -120,7 +120,7 @@
     font-family: "Charter", "Bitstream Charter", "Iowan Old Style", "Palatino",
                  Georgia, Cambria, "Times New Roman", serif;
     line-height: 1.72;
-    font-size: 1.02rem;
+    font-size: 1.7rem;   /* mdBook sets html to 62.5%, so 1rem = 10px; 1.7rem ≈ 17px */
 }
 
 .content h1,

@@ -41,6 +41,6 @@ Now that two unknowns have indulged this, the following manual does have errors 
 
 <hr>
 
-Please check is $\LaTeX$ is enabled:
+Please check is \\( \LaTeX \\) is enabled:
 
 $$\int^{\pi}_{0} 1 dx = \pi,$$

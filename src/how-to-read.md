@@ -18,24 +18,24 @@ Now that two unknowns have indulged this, the following manual does have errors 
 - This is a playbook consisting of code:
 
 ```cpp
-  #include <iostream>
-  int main() {
-      std::cout << "Hello, world!\n";
-      return 0;
-  }
+    #include <iostream>
+    int main() {
+        std::cout << "Hello, world!\n";
+        return 0;
+    }
 ```
 
-  - You may hover over the playbook with cursor to copy the code using <i class="fa fa-copy"></i> icon. However, if you are viewing primer via touch devices, please click the playbook to find it.
+    - You may hover over the playbook with cursor to copy the code using <i class="fa fa-copy"></i> icon. However, if you are viewing primer via touch devices, please click the playbook to find it.
 
 - This will have some hidden code:
 
 ```cpp
-  ~#include <iostream>
-  ~
-  int main() {
-      std::cout << "Focus on this line\n";  // reader sees this
-  }
+    ~#include <iostream>
+    ~
+    int main() {
+        std::cout << "Focus on this line\n";  // reader sees this
+    }
 ```
 
-  - If you are reading through pdf, please assume that the code starting from tilde is hidden from your eyes. :-)
-  - You may hover over the playbook with cursor to see the hidden code using <i class="fa fa-eye"></i> icon. However, if you are viewing primer via touch devices, please click the playbook. To toggle it off, please click the <i class="fa fa-eye-slash"></i> icon.
+    - If you are reading through pdf, please assume that the code starting from tilde is hidden from your eyes. :-)
+    - You may hover over the playbook with cursor to see the hidden code using <i class="fa fa-eye"></i> icon. However, if you are viewing primer via touch devices, please click the playbook. To toggle it off, please click the <i class="fa fa-eye-slash"></i> icon.

@@ -2,7 +2,7 @@ This site follows some conventions and designs. An unknown person once said:
 
 > "The only manual with no mistakes is the one that was never written." 
 
-Now that two unknowns have indulged this, the following manual does have errors indeed. 
+Now that two unknowns have indulged this, the following manual does have errors indeed. Any suggestions and or improvements are much appreciated. You may suggest any issues related to content [here](https://github.com/AitzazImtiaz/primer/issues/new).
 
 - Please look at top right for the <i class="fa fa-edit"></i> icon to suggest any edits (you will need a GitHub account for this). 
 - Please look at top right for the <i class="fa fa-github"></i> icon to visit the GitHub source for this site.
@@ -12,6 +12,8 @@ Now that two unknowns have indulged this, the following manual does have errors 
   - Please note that the theme will remain in 'light' mode when compiling the pdf booklet.
 - Please use the <i class="fa fa-bars"></i> icon to toggle the side bar,
 <hr>
+
+### Playbook
 
 <ul>
     <li>

@@ -38,3 +38,9 @@ Now that two unknowns have indulged this, the following manual does have errors 
 - The above playbook will have some hidden code.
     - If you are reading through pdf, please assume that the code starting from tilde is hidden from your eyes. :-)
     - You may hover over the playbook with cursor to see the hidden code using <i class="fa fa-eye"></i> icon. However, if you are viewing primer via touch devices, please click the playbook. To toggle it off, please click the <i class="fa fa-eye-slash"></i> icon.
+
+<hr>
+
+Please check is $\LaTeX$ is enabled:
+
+$$\int^{\pi}_{0} 1 dx = \pi,$$
